@@ -1,0 +1,10 @@
+[project]
+name = "HelloWorld"
+version = "0.1.0"
+description = "My awesome project"
+authors = [
+    { name = "Mohammad Danaee", email = "danaee4421@gmail.com" }
+]
+
+[project.scripts]
+my_script = "HelloWorld.SayHello:main"
