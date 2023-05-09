@@ -2,6 +2,7 @@ import math
 
 
 def divide_numbers(a, b):
+    """this function divide two numbers and return the result with handling errors"""
     try:
         result = a / b
     except ZeroDivisionError:
