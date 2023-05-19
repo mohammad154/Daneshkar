@@ -1,4 +1,6 @@
 #! /usr/bin/python3
+# docstring
+
 def apply_discount(price: int, discount: float = 0.0) -> int:
     """Apply Discount Percent and Calculate Final Price"""
     final_price = int(price * (1 - discount))
